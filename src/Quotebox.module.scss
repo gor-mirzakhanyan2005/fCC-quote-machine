@@ -1,0 +1,74 @@
+.quoteBoxBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    width: 900px;
+    height: 550px;
+    align-self: normal;
+    justify-self: center;
+    margin-top: 60px;
+    border-radius: 50px;
+}
+
+.quote{
+    width: 500px;
+    color: #fff;
+    text-align: center;
+    margin-top: -100px;
+    text-shadow: 2.5px 2.5px 5px black;
+}
+
+.author{
+    width: 500px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2.5px 2.5px 5px black;
+    opacity: 0.75;
+}
+
+.faTwitter{
+    cursor: pointer;
+    color: white;
+    font-size: 32px;
+}
+
+.quoteTick{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 148px;
+    position: absolute;
+    opacity: 25%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.quoteButton{
+    position: absolute;
+    margin-top: 240px;
+    height: 50px;
+    width: 200px;
+    background-color: #363636;
+    color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 25px;
+    border: 2px solid white;
+    box-shadow: 0px 10px 0px #000000;
+    transition: 0.15s;
+}
+
+.quoteButton:hover{
+    background-color: rgb(148, 148, 148);
+}
+
+.quoteButton:active{
+    box-shadow: none;
+    margin-top: 265px;
+}

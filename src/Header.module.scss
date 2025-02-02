@@ -1,0 +1,20 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+$main-text: #FFF;
+
+header{
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+h1{
+  color: $main-text;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Playwrite IN";
+  text-shadow: 2.5px 2.5px 5px black;
+}
